@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice(Calculator)</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- first task -->
+    <!-- <button onclick="button()">button</button> -->
+
+    <!-- second task -->
+    <!-- <button onclick="toggleFunction()">Click here</button>
+    <div id="toggleLamp"></div> -->
+
+    <!-- third task -->
+    <!-- <input type="text" id="inputP" onkeyup="textInput()">
+    <p id="p"></p> -->
+
+    <!-- fourth task -->
+    <div class="calculator">
+        <table id="summ">
+            <tr class="result">
+                <td colspan="5">
+                    <input type="text" placeholder="0" id="result">
+                </td>
+            </tr>
+            <tr class="firstRow">
+                <td colspan="2"><button onclick="clr()">clr</button></td>
+                <td><button onclick="clr()">DEL</button></td>
+                <td><button onclick="display('/')"
+                    onkeyup="calcFunction(event)">/</button></td>
+            </tr>
+            <tr class="secondRow">
+                <td><button onclick="display('7')"
+                    onkeydown="calcFunction(event)">7</button></td>
+                <td><button onclick="display('8')"
+                    onkeydown="calcFunction(event)">8</button></td>
+                <td><button onclick="display('9')"
+                    onkeydown="calcFunction(event)">9</button></td>
+                <td><button onclick="display('x')"
+                    onkeydown="calcFunction(event)">x</button></td>
+            </tr>
+            <tr class="thirdRow">
+                <td><button onclick="display('4')"
+                    onkeydown="calcFunction(event)">4</button></td>
+                <td><button onclick="display('5')"
+                    onkeydown="calcFunction(event)">5</button></td>
+                <td><button onclick="display('6')"
+                    onkeydown="calcFunction(event)">6</button></td>
+                <td><button onclick="display('-')"
+                    onkeydown="calcFunction(event)">-</button></td>
+            </tr>
+            <tr class="fourthRow">
+                <td><button onclick="display('1')"
+                    onkeydown="calcFunction(event)">1</button></td>
+                <td><button onclick="display('2')"
+                    onkeydown="calcFunction(event)">2</button></td>
+                <td><button onclick="display('3')"
+                    onkeydown="calcFunction(event)">3</button></td>
+                <td><button onclick="display('+')"
+                    onkeydown="calcFunction(event)">+</button></td>
+            </tr>
+            <tr class="fifthRow">
+                <td><button onclick="display('0')"
+                    onkeydown="calcFunction(event)">0</button></td>
+                <td><button onclick="display('.')"
+                    onkeydown="calcFunction(event)">.</button></td>
+                <td colspan="2"><button onclick="solve()">=</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="assets/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"></script>
+</html>

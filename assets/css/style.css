@@ -1,0 +1,74 @@
+/* second task */
+/* .toggleCircle{
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-color: blueviolet;
+} */
+
+/* fourth task */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(43, 43, 159);
+}
+.calculator{
+    width: 470px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 30px;
+    background-color:rgb(3, 3, 84);
+    box-shadow: 10px 8px 3px 5px rgb(4, 4, 137);
+}
+.calculator table{
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 15px;
+    width: 460px;
+}
+.calculator table,td{
+    background-color:rgb(3, 3, 84);
+}
+.calculator table tr.result input{
+    width: 100%;
+    height: 120px;
+    /* margin-top: 15px; */
+    padding: 13px;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    font-size: 45px;
+    border-bottom: none;
+    /* direction: rtl; */
+}
+.calculator table tr td button{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    margin-top: 2px;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(35, 35, 128);
+}
+.calculator table tr.firstRow button{
+    margin-top: 30px;
+}
+.calculator table tr.secondRow button{
+    margin-top: 5px;
+}
+.calculator table tr.thirdRow button{
+    margin-top: 5px;
+}
+.calculator table tr.fourthRow button{
+    margin-top: 5px;
+}
+.calculator table tr.fifthRow button{
+    margin-top: 5px;
+}
